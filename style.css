@@ -1,0 +1,103 @@
+body{
+    background-color: lightgreen;
+}
+
+
+#title{
+    font-size: 35px;
+    color: indigo;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+}
+    
+
+#firsttitle{
+font-size: 30px;
+color: rgb(34, 76, 34);
+margin: auto;
+margin-top: 2em;
+margin-inline-start: 4em;
+}
+
+
+#firsttitle:hover{
+font-size: 30px;color:rgb(97, 53, 139) ;
+
+
+}
+
+
+#image{
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: fit-content;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+
+#sectioncontainer{
+margin: auto;
+margin-top: 2em;
+width: 95vw;
+padding: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+#content{
+width: 95vw;
+padding: 2em; background-color: paleturquoise;
+border-radius: 20px;
+margin: auto;
+margin-top: 2em;
+}
+
+#content:hover{
+    background-color: rgb(43, 195, 101);
+}
+
+
+#section{
+background-color: orchid;    
+font-size: 30px;
+color: green;
+border-radius: 20%;
+width: fit-content;
+padding: 2em;
+display: flex;
+justify-content: space-between; 
+}
+
+
+#section:hover{
+background-color: purple;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: orchid;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#click{
+font-size: 15px; color:rgb(137, 69, 89);
+padding: 2em 0px 2em 4em;
+display: flex;
+flex-direction: column;
+gap: 1em;
+}
+
+a:hover{
+    font-size: 15px; color: rgb(59, 36, 81);
+}
+ 
+

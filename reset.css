@@ -1,0 +1,85 @@
+/* Reset CSS */
+/* ---------------------------------------------- */
+
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove default margin */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p,
+  ul, ol,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+  
+  /* Remove default padding */
+  ul[class], ol[class] {
+    padding: 0;
+  }
+  
+  /* Remove default quote */
+  blockquote, q {
+    quotes: none;
+  }
+  
+  /* Remove borders and padding on images */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Standardize spacing */
+  figure {
+    margin: 0;
+  }
+  
+  /* Reset spacing for nested lists */
+  ul ul,
+  ol ol,
+  ul ol,
+  ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Reset headings */
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Reset links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove underline for non-hovered links */
+  a:hover {
+    text-decoration: none;
+  }
+  
